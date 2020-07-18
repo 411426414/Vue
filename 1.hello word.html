@@ -15,6 +15,7 @@
         <div>msg: {{ msg }}</div>
         <div>算数运算: {{1+2}}</div>
         <div>字符串连接: {{ msg + " Word "  }}</div>
+        <div>num: {{ num }}</div>
     </div>
     <script src="js/vue.js"></script>
     <!--
@@ -34,6 +35,7 @@
             el: "#app",
             data: {
                 msg: "Hello Vue",
+                num: 1234567
             }
         })
     </script>
