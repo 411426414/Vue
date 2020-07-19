@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-pre</title>
+</head>
+<body>
+    <div id="app">
+        <div v-pre>{{msg}}</div>
+        <!-- 
+            v-pre:显示原始信息,跳过编译过程(分析编译过程)
+        -->
+    </div>
+    <script src="js/vue.js"></script>
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                msg: "<h1>Hello Vue</h1>"
+            }
+        })
+    </script>
+</body>
+</html>
