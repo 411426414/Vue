@@ -9,8 +9,10 @@
     <div id="app">
         <div v-cloak>{{ num }}</div>
         <div>
-            <button v-on:click='num++'>值加1</button>
+            <button v-on:click='plus'>值加1(函数名称调用：不带括号)</button>
+            <button v-on:click='plus()'>值加1(函数调用：带括号)</button>
             <button @click='num--'>值减1</button>
+
         </div>
     </div>
     <script src="js/vue.js"></script>
@@ -22,7 +24,14 @@
             el: "#app",
             data: {
                 num: 0
-            }
+            },
+            methods: {
+                plus: function(){
+                    //这里的this是Vue的实例对象
+                    console.log(this === vm)
+                    this.num++
+                }
+            },
         })
     </script>
 </body>
