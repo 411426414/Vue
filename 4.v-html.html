@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-html</title>
+</head>
+<body>
+    <div id="app">
+        <div v-html="msg"></div>
+        <!-- 
+            v-html:非常危险，需要慎重
+            本网站内部数据可以使用,来自第三方的数据不可以用
+        -->
+    </div>
+    <script src="js/vue.js"></script>
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                msg: "<h1>Hello Vue</h1>"
+            }
+        })
+    </script>
+</body>
+</html>
