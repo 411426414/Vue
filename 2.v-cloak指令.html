@@ -11,6 +11,15 @@
     </div>
     <script src="js/vue.js"></script>
     <script type="text/javascript">
+    /*
+        v-cloak指令的用法
+        1、提供样式
+            [v-cloak]{
+                display: none;
+            }
+        2、在插值表达式所在的标签中添加v-cloak指令
+    */
+
         var vm = new Vue({
             el: "#app",
             data: {
