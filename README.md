@@ -12,3 +12,5 @@
 
 # [7.双向数据绑定.html](https://411426414.github.io/Vue/7.%E5%8F%8C%E5%90%91%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A.html)
 
+# [8.事件绑定.html](https://411426414.github.io/Vue/8.%E4%BA%8B%E4%BB%B6%E7%BB%91%E5%AE%9A.html)
+
