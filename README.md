@@ -8,3 +8,5 @@
 
 # [5.v-pre.html](https://411426414.github.io/Vue/5.v-pre.html)
 
+# [6.数据响应式.html](https://411426414.github.io/Vue/6.%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E5%BC%8F.html)
+
