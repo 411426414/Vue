@@ -5,3 +5,6 @@
 # [3.v-text.html](https://411426414.github.io/Vue/3.v-text.html)
 
 # [4.v-html.html](https://411426414.github.io/Vue/4.v-html.html)
+
+# [5.v-pre.html](https://411426414.github.io/Vue/5.v-pre.html)
+
